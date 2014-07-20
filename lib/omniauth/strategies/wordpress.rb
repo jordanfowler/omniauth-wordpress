@@ -3,7 +3,7 @@ require 'omniauth/strategies/oauth2'
 module OmniAuth
   module Strategies
     class Wordpress < OmniAuth::Strategies::OAuth2
-      option :name, "wordpress"
+      # option :name, "wordpress"
       # option :authorize_options, [:scope]
       option :client_options, {
         :site => "https://public-api.wordpress.com",
